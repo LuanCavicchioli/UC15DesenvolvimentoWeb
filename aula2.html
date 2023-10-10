@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Aula 2 de HTML5</title>
+        <meta name="description" content="Aula de Html5 = abordando lista,link,imagem e tabela">
+        <meta name="keywords" content="html5,lista,tabela,SEO">   
+    </head>
+    <body>
+        
+        <h1>Aula 2</h1>
+        <h2>Lista Não Ordenada</h2>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2
+                <ul>
+                    <li>SubItem 2.1</li>
+                    <li>SubItem 2.2</li>
+                </ul>
+            </li>
+            <li>Item 3</li>
+        </ul>
+
+            <!-- Tipos de lista A,I,i,a,0-->
+        <h2>Lista Ordenada</h2>
+        <ol type="">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ol>
+
+        <h2 id="lista-contato">Tabela</h2>
+
+        <table border="1">
+            <caption>Lista de contatos</caption>
+            <thead>
+            <tr>
+                <th>Nome:</th>
+                <th>Telefone:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Luan </td>
+                <td>34512807</td>
+            </tr>
+            
+            <tr>
+                <td>Flamengo</td>
+                <td>12345678</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+
+                <td colspan="2">Total de contatos : 2</td>
+            </tr>
+        </tfoot>
+        </table>
+
+        <h2>Imagem</h2>
+
+        <img src="img/download.jpg" alt="Felca" width="500" title="Vasco Da Gama">
+
+        <h2>Link</h2>
+
+        <ul>
+            <li><a href="aula1.html">Aula 1 de HTML5</a></li>
+            <li><a href="https://sp.senac.br/marilia" target="_blank">Senac</a></li>
+            <li><a href="#lista-contato">Lista de contato</a></li>
+        </ul>
+    </body>
+</html>
